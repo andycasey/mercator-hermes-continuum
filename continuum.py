@@ -418,7 +418,7 @@ class HERMESContinuumModel(BaseNMFSinusoidsContinuum):
     
     def __init__(
         self,
-        components_path="H.pkl",
+        components_path="H.pkl.gz",
         deg=3,
         L=None,
         regions=None,
